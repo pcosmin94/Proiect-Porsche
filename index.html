@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porsche Cayenne Presentation</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Porsche</h2>
+        <div class="toogle"></div>
+      </header>
+
+      <video src="PorscheCayenneCoupe.mp4" muted loop autoplay></video>
+
+      <div class="text">
+        <h2>Porsche</h2>
+        <h3>Cayenne Coupe</h3>
+        <p>
+          The Cayenne and Cayenne Coupé: both boast a striking appearance and
+          impressive performance, with up to five seats. Whether you prefer
+          embarking upon your next adventure in the Cayenne together with
+          friends, or fall for the iconic lines of the Coupé, it is purely a
+          matter of personal taste. But one thing also applies to our two
+          biggest models: every Porsche is first and foremost a sports car.
+        </p>
+        <a href="#">Car configurator</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="http://www.facebook.com/"
+            ><img src="facebook.png" alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"
+            ><img src="instagram.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/"
+            ><img src="twitter.png" alt="twitter"
+          /></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Car Configurator</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-container2">
+      <ul class="social-media-list">
+        <li>
+          <div
+            class="fb-like"
+            data-href="http://www.facebook.com/"
+            data-send="false"
+            data-layout="button_count"
+            data-width="20"
+            data-show-faces="false"
+          ></div>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/"
+            class="twitter-follow-button"
+            data-show-count="false"
+          ></a>
+        </li>
+        <li>
+          <div class="g-plusone" data-size="medium"></div>
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const menuToggle = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toogle("active");
+        showcase.classList.toogle("active");
+      });
+    </script>
+  </body>
+</html>
